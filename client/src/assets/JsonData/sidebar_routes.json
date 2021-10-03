@@ -1,0 +1,27 @@
+[
+    {
+        "display_name": "Dashboard",
+        "route": "/",
+        "icon": "bx bx-category-alt"
+    },
+    {
+        "display_name": "Images",
+        "route": "/image-uploads",
+        "icon": "bx bx-package"
+    },
+    {
+        "display_name": "Mapping",
+        "route": "/mapping",
+        "icon": "bx bx-map"
+    },
+    {
+        "display_name": "Analytics",
+        "route": "/analytics",
+        "icon": "bx bx-bar-chart-alt"
+    },
+    {
+        "display_name": "settings",
+        "route": "/settings",
+        "icon": "bx bx-cog"
+    }
+]
