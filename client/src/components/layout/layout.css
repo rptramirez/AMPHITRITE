@@ -8,6 +8,29 @@
     min-height: 100vh;
 }
 
+form { border: 1px solid #ddd; margin: 15px 0; padding: 15px 0; border-radius: 4px; }
+form .form_line { margin-bottom: 20px; }
+form .form_controls { margin-left: 180px; }
+form label { float: left; width: 160px; padding-top: 3px; text-align: right; }
+form .error { color: #c55; margin: 0 10px; }
+
 .layout__content-main {
     padding: 30px;
+}
+
+#direct_upload_jquery, #direct_upload {
+    box-sizing: content-box;
+}
+
+#direct_upload_jquery, #direct_upload { padding: 20px 20px; margin: 20px 0;
+    border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; }
+
+#direct_upload_jquery h1, #direct_upload h1 { margin: 0 0 15px 0; }
+
+#direct_upload, #direct_upload_jquery { border: 4px dashed #ccc; }
+#direct_upload.dragover { border-color: #0c0; }
+#direct_upload.dragover-err { border-color: #c00; }
+
+#posterframe {
+    position: relative;
 }
